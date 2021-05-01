@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://domain07.sharepoint.com/sites/group1/SitePages/Home.aspx",
+      "customActions": {
+        
+          "847fb73a-8648-4f6e-a6de-b2d90c151d21": {
+            "location": "ClientSideExtension.ApplicationCustomizer",
+            "properties": {
+              "Bottom": "Footer of the page"
+            }
+          },
+        
+        "f58a0902-c9d8-4cce-bd5e-4da887e21bed": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Header of the page"
+          }
+        }
+      }
+    },
+    "customHeaderFooter": {
+      "pageUrl": "https://domain07.sharepoint.com/sites/group1/SitePages/Home.aspx",
+      "customActions": {
+        "f58a0902-c9d8-4cce-bd5e-4da887e21bed": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Header of the page"
+          }
+        }
+      }
+    },
+    "footerCustomizer": {
+      "pageUrl": "https://domain07.sharepoint.com/sites/group1/SitePages/Home.aspx",
+      "customActions": {
+        "847fb73a-8648-4f6e-a6de-b2d90c151d21": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Bottom": "Footer of the page"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="CustomHeaderFooter"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="f58a0902-c9d8-4cce-bd5e-4da887e21bed"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+     <ClientSideComponentInstance
+        Title="footerCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId= "847fb73a-8648-4f6e-a6de-b2d90c151d21"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

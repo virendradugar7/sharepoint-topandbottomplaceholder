@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-extensions-applicationcustomizer-client-side-solution",
+    "id": "2f5628a8-7e18-4e74-9e00-9f3d8d36053b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "developer": {
+      "name": "your-company",
+      "websiteUrl": "http://your-company.com",
+      "mpnId": "",
+      "termsOfUseUrl": "http://your-company.com/home/about#terms",
+      "privacyUrl": "http://your-company.com/home/about#privacy"
+   },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "b9d41f3e-8000-4915-a9d6-17134084bdfd",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-extensions-applicationcustomizer.sppkg"
+  }
+}
